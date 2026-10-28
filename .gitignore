@@ -1,0 +1,17 @@
+# Rojo builds
+*.rbxm
+*.rbxl
+*.rbxlx
+build/
+dist/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.ropeproject
+.vscode/*
+!.vscode/extensions.json
+*.code-workspace

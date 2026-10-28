@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/rojo-rbx/rojo/master/schemas/project.schema.json",
+  "name": "RoBox Dashboard",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "RoBox": {
+        "$className": "Folder",
+        "Shared": {
+          "$path": "src/shared"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "RoBox": {
+        "$className": "Folder",
+        "Server": {
+          "$path": "src/server"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "RoBox": {
+          "$className": "Folder",
+          "Client": {
+            "$path": "src/client"
+          }
+        }
+      }
+    }
+  }
+}
